@@ -20,7 +20,7 @@ import { getEntityLocationRef } from '../../processing/util';
 import {
   EntityProvider,
   EntityProviderConnection,
-} from '@backstage/catalog-node';
+} from '@backstage/plugin-catalog-node';
 import { locationSpecToLocationEntity } from '../../util/conversion';
 
 export class ConfigLocationEntityProvider implements EntityProvider {

@@ -16,7 +16,10 @@
 
 import { Entity } from '@backstage/catalog-model';
 import { JsonObject } from '@backstage/types';
-import { DeferredEntity, EntityRelationSpec } from '@backstage/catalog-node';
+import {
+  DeferredEntity,
+  EntityRelationSpec,
+} from '@backstage/plugin-catalog-node';
 /**
  * The request to process an entity.
  * @public

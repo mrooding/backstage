@@ -1,5 +1,5 @@
 {
-  "name": "@backstage/catalog-node",
+  "name": "@backstage/plugin-catalog-node",
   "description": "The catalog-node module for @backstage/plugin-catalog-backend",
   "version": "0.0.0",
   "main": "src/index.ts",

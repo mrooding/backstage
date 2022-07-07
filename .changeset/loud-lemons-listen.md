@@ -1,5 +1,5 @@
 ---
-'@backstage/catalog-node': major
+'@backstage/plugin-catalog-node': major
 ---
 
 This package houses experimental extension points for the catalog backend alongside shared types that are already in a stable state.

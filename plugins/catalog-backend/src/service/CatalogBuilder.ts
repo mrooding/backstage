@@ -36,7 +36,7 @@ import {
   CatalogProcessor,
   CatalogProcessorParser,
   EntityProvider,
-} from '@backstage/catalog-node';
+} from '@backstage/plugin-catalog-node';
 import {
   AnnotateLocationEntityProcessor,
   BuiltinKindsEntityProcessor,

@@ -25,7 +25,7 @@ import { CatalogProcessingOrchestrator } from '../processing/types';
 import { LocationInput, LocationService, LocationStore } from './types';
 import { locationSpecToMetadataName } from '../util/conversion';
 import { InputError } from '@backstage/errors';
-import { DeferredEntity } from '@backstage/catalog-node';
+import { DeferredEntity } from '@backstage/plugin-catalog-node';
 
 export class DefaultLocationService implements LocationService {
   constructor(

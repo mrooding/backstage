@@ -18,7 +18,7 @@ import { JsonObject, JsonValue } from '@backstage/types';
 import {
   CatalogProcessor,
   CatalogProcessorCache,
-} from '@backstage/catalog-node';
+} from '@backstage/plugin-catalog-node';
 import { isObject } from './util';
 
 class SingleProcessorSubCache implements CatalogProcessorCache {

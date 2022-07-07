@@ -28,7 +28,7 @@ import {
   CatalogProcessor,
   CatalogProcessingExtensionPoint,
   catalogProcessingExtentionPoint,
-} from '@backstage/catalog-node';
+} from '@backstage/plugin-catalog-node';
 
 class CatalogExtensionPointImpl implements CatalogProcessingExtensionPoint {
   #processors = new Array<CatalogProcessor>();

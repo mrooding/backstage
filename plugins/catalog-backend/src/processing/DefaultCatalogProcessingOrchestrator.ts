@@ -37,7 +37,7 @@ import {
   CatalogProcessorParser,
   LocationSpec,
   processingResult,
-} from '@backstage/catalog-node';
+} from '@backstage/plugin-catalog-node';
 import {
   CatalogProcessingOrchestrator,
   EntityProcessingRequest,

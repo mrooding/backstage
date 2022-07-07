@@ -5,6 +5,7 @@
 ```ts
 /// <reference types="node" />
 
+import { BackendRegistrable } from '@backstage/backend-plugin-api';
 import { CatalogApi } from '@backstage/catalog-client';
 import { CatalogProcessor } from '@backstage/plugin-catalog-backend';
 import { CatalogProcessorEmit } from '@backstage/plugin-catalog-backend';
@@ -541,6 +542,11 @@ export type RunCommandOptions = {
   options?: SpawnOptionsWithoutStdio;
   logStream?: Writable;
 };
+
+// @alpha
+export const scaffolderCatalogExtension: (
+  option: unknown,
+) => BackendRegistrable;
 
 // @public (undocumented)
 export class ScaffolderEntitiesProcessor implements CatalogProcessor {

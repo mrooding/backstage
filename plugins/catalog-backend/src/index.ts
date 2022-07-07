@@ -36,8 +36,8 @@ export type {
   EntityProvider,
   EntityProviderConnection,
   EntityProviderMutation,
-} from '@backstage/catalog-node';
-export { processingResult } from '@backstage/catalog-node';
+} from '@backstage/plugin-catalog-node';
+export { processingResult } from '@backstage/plugin-catalog-node';
 
 export * from './catalog';
 export * from './ingestion';
